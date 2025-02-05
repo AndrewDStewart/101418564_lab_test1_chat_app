@@ -1,0 +1,42 @@
+/*
+// COMP 3133 
+// Lab Test 1
+// Author: Andrew Stewart
+// Student ID: 101418564
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+}
+
+#messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#typing-indicator {
+    height: 20px;
+    font-style: italic;
+}
